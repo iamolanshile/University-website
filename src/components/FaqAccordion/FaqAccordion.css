@@ -1,0 +1,25 @@
+.faq-section p,
+.accodion {
+  width: 75%;
+}
+
+.accodion .accodion-button:focus,
+.accordion .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.accodion .accordion-button:not(.collapsed)::after {
+  filter: invert();
+}
+
+@media only screen and (max-width: 992px) {
+  .faq-section p,
+  .accodion {
+    width: 100%;
+  }
+}
